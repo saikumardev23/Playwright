@@ -12,7 +12,7 @@ class LoginTest
 
         await page.GotoAsync("https://www.gmail.com");
 
-        // Fill in form fields with random data
+      
         await page.TypeAsync("input[type='email']", "saiKumartestproject@gmail.com");
         await page.ClickAsync("div[id='identifierNext']");
 
